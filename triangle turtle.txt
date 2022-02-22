@@ -1,0 +1,15 @@
+import turtle
+ 
+tur = turtle.Turtle()
+c= input("Enter the color name or hex value of color(# RRGGBB): ")
+tur.fillcolor(c)
+tur.begin_fill()
+tur.forward(80)
+
+tur.left(120)
+tur.forward(80)
+ 
+tur.left(120)
+tur.forward(80)
+tur.end_fill()
+turtle.done()
